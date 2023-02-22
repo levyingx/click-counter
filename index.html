@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>click counter</title>
+
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <script src="https://kit.fontawesome.com/800894e8ea.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body class="bg-dark text-white">
+
+  <div class="box" onclick="increment()">
+
+    <h3 class="title">click counter</h3>
+
+    <h2 class="display" id="display">0</h2>
+
+    <h4 id="save-display">0</h4>
+
+  </div>
+
+  <div class="buttons">
+    <button class="save-button" onclick="save()"><i class="fa-solid fa-floppy-disk"></i></button>
+    <button class="clear-button" onclick="reset()"><i class="fa-solid fa-arrow-rotate-right"></i></button>
+    <button class="dark-mode-button" onclick="darkMode()"><i class="fa-solid fa-circle-half-stroke"></i></button>
+  </div>
+
+  <h4>made by <a href="https://replit.com/@levying">@levying</a></h4>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
